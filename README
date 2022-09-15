@@ -1,0 +1,39 @@
+WorkLog
+=======
+
+INSTALLATION
+------------
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+------------
+
+This module requires these other modules and libraries:
+
+  unknown at the moment
+
+COPYRIGHT AND LICENCE
+---------------------
+
+Copyright (C) 2004 by Andrew Sweger and Addnorya
+Copyright (C) 2003 by Matt Wagner and MySQL AB
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.8.3 or,
+at your option, any later version of Perl 5 you may have available.
+
+OTHER NOTES
+-----------
+
+DB schema (MySQL) is in 'worklog.schema'.
+
+Required apache rewrite rules are in 'httpd.conf'.
+
+Other WorkLog configuration bits are in 'lib/WLCONFIG.pm'.
+
